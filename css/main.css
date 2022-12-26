@@ -112,12 +112,14 @@ body {
   font-size: 60px;
   color: #000;
   letter-spacing: -1.6px;
+  line-height: 1;
 }
 
 .slide .text_box p {
   font-size: 18px;
   margin-top: 15px;
   margin-bottom: 18px;
+  line-height: 28px;
 }
 
 /* banner */
@@ -213,4 +215,82 @@ body {
 
 .product ul li .detail p.price {
   font-size: 18px;
+}
+
+/* mailing */
+.mailing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mailing .text_box {
+  margin: 0 auto;
+  padding: 150px;
+  text-align: center;
+}
+
+.mailing .text_box h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 1;
+}
+
+.mailing .text_box p {
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 12px;
+  margin-bottom: 28px;
+}
+
+/* footer */
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding-top: 106px;
+  padding-bottom: 50px;
+}
+
+.footer .inner .menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .inner .footer_menu {
+  display: flex;
+}
+
+.footer .inner .footer_menu li {
+  width: 216px;
+}
+
+.footer .inner .footer_menu > li > a,
+.footer .inner .footer_sns p {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.25);
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer .inner .footer_menu ul a {
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.footer .inner .footer_sns ul {
+  display: flex;
+}
+
+.footer .inner .footer_sns ul li {
+  margin-right: 16px;
+}
+
+.footer .inner .copyright {
+  margin-top: 110px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.5);
 }
