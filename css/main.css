@@ -1,0 +1,109 @@
+/* width : 1320px */
+/* 양쪽 패딩 : 20px */
+/* 실제 컨텐츠 넓이 : 1280px */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  width: 256px;
+  height: 64px;
+  border: 1px solid #111;
+  background-color: #fff;
+  color: #111;
+  text-align: center;
+  line-height: 64px;
+  font-size: 18px;
+}
+
+.btn_dark {
+  background-color: #111;
+  color: #fff;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-size: 16px;
+  color: #111;
+}
+
+.container {
+}
+
+.inner {
+  width: 1320px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 120px;
+}
+
+.header .inner {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header li a {
+  height: 120px;
+  display: inline-block;
+  line-height: 120px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav li a {
+  margin-right: 30px;
+}
+
+.top_menu {
+  display: flex;
+}
+
+.top_menu li a {
+  margin-left: 40px;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* hero */
+.slide {
+  position: relative;
+  width: 1280px;
+  height: 728px;
+  margin: 0 auto;
+  background-color: aqua;
+  background-image: url("/images/main\ visual_img.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.slide .text_box {
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+}
