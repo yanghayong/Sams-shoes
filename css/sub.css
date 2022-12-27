@@ -1,0 +1,142 @@
+.product {
+  margin-bottom: 150px;
+}
+
+.product_detail {
+  margin-top: 130px;
+  margin-bottom: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product_detail .photo {
+  background-color: #e1e1e1;
+  width: 632px;
+  height: 632px;
+  position: relative;
+}
+
+.product_detail .photo .product_img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.product_detail .photo .btns {
+  position: absolute;
+  bottom: 32px;
+  right: 42px;
+  display: flex;
+  gap: 10px;
+}
+
+.product_detail .photo .btns a {
+  display: block;
+  background-color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.product_detail .info {
+  width: 532px;
+  height: 632px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product_detail .info ul.size {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.product_detail .info ul.size li {
+  width: 92px;
+  height: 92px;
+  background-color: #fff;
+  border: 1px solid #000;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  line-height: 92px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.product_detail .info ul.size li:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.product_detail .info .top .category {
+  font-size: 14px;
+  font-weight: 500;
+}
+.product_detail .info .top h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  line-height: 60px;
+  margin-top: 12px;
+  margin-bottom: 6px;
+}
+.product_detail .info .top .price {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+.product_detail .info .top .size_title {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 36px;
+  margin-bottom: 20px;
+}
+.product_detail .info .top .size_title p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.product_detail .info .top .size_title a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+/* product_about */
+.product_about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product_about ul.photos {
+  display: flex;
+  gap: 30px;
+}
+
+.product_about ul.photos li {
+  background-color: #e1e1e1;
+  width: 414px;
+  height: 556px;
+}
+
+.product_about .text_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product_about .text_box h2 {
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 28px;
+  line-height: 40px;
+}
+.product_about .text_box p {
+  font-size: 18px;
+  line-height: 28px;
+}
